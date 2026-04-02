@@ -1,0 +1,128 @@
+		
+		* {
+			font-family: "Arial", monospace;
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+
+		body {
+			background-image: url(https://img.freepik.com/premium-photo/abstract-futuristic-digital-data-grid-environment_53876-1369670.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+		}
+
+
+
+		nav {
+			position: sticky;
+			top: 0;
+			padding: 16px;
+			background-color: lightseagreen;
+			text-align: center;
+			color: black;
+		}
+
+
+		.nav-link {
+			margin-right: 20px;
+			margin-left: 20px;
+			color: black;
+			text-decoration: none;
+		}
+
+
+		#landing {
+			text-align: center;
+		}
+
+
+		#profile {
+			height: 300px;
+			width: 300px;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			border-radius: 150px;
+			border:  2px solid blueviolet;
+		}
+
+
+		#name {
+			margin-top: 15px;
+			margin-bottom: 30px;
+		}
+
+
+		#title {
+			margin-top: 5px;
+			margin-bottom: 50px;
+		}
+
+
+		#intro {
+			width: 500px;
+			margin: auto;
+		}
+
+
+		#tools {
+			padding-top: 150px;
+			text-align: center;
+		}
+
+
+		#tools-title {
+			padding-bottom: 55px;
+			margin-bottom: 25px;
+		}
+
+
+		.tools-img {
+			border-radius: 20px;
+			border: solid blueviolet;
+			height: 120px;
+			width: 120px;
+			margin-right: 30px;
+			margin-left: 30px;
+		}
+
+
+		#projects h1 {
+			padding: 20px;
+		}
+
+
+
+		/* Since My Project Images are from desktop screenshots, 
+		I've researched ways to make the card possible, I used to research w3schools and AI to help me with this styling. */
+	 	.card {
+            	padding: 20px;
+           	 width: 30rem; 
+            	border: 2px solid blueviolet;
+        }
+
+
+        	.card img {
+        		width: 100%;
+        		height: 250px;
+        		object-fit: cover;
+        }
+
+
+
+       	#contact {
+       		position: sticky;
+            	display: flex;
+            	justify-content: center; 
+            	gap: 30px;               
+            	padding: 16px 0;         
+        }	
+
+
+      	#contact a {
+       		text-decoration: none;
+       		color: black;
+       }

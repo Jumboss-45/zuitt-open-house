@@ -1,0 +1,125 @@
+/*
+
+CSS Syntax:
+
+Selector {
+	property: value;
+}
+
+
+
+*/
+html {
+	/* allow us to have smooth scrolling when navigating the page using anchor tags */
+	scroll-behavior: smooth;
+}
+
+/* Universal Selector (*) - targets all the elements */
+
+* {
+	font-family: "Courier New", monospace;
+	/* CSS reset */
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* tag/type selector -target elements with specified type/tag name*/
+
+h1 {
+	font-family: "Tahoma", sans-serif;
+}
+
+body {
+	/*background-color: skyblue;*/
+	/* take path of the image and allow to add the image as a background */
+	background-image: url(https://wallpapercave.com/wp/wp15026893.webp);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+section {
+	text-align: center;
+}
+
+/* inline element - anchor tag | block - sitting with each other, occupy whole width */
+
+nav {
+	background-color: white;
+	text-align: center;
+	/* pading is a property - allows to add space within an element */
+
+	/* padding: _px - add space in all direction of the element (TBLR) */
+	padding: 15px;
+}
+
+/* class selector starts with a period -it target elements based on className.*/
+
+.nav-link {
+	font-size: 18px;
+}
+
+
+.title {
+	/*color: green;*/
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+/* ID selector (#) target element base on the ID attribute. */
+
+#hello {
+	color: black;
+	/* root is a measurement called root element and it references the font size of the root element. 2rem=2(16px) =32px
+	the default root fornt size is 16px*/
+	font-size: 2rem;
+}
+
+#logo {
+	height: 244px;
+	width: 244px;
+	/* changes the corners of an element from a sharp to a rounded corner */
+	border-radius: 150px;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+a {
+	/* removes anchor tag text decor */
+	text-decoration: none;
+}
+
+
+/* w/o border-box */
+/* width 1px border left + 50px padding left + 1px border right + 50px padding right + 150px width = 252px */
+
+/* with border box */
+/* width 1px border left + 50px padding left + 1px border right + 50px padding right + 48px width = 150px */
+
+.module-card{
+	height: 350px;
+	width: 800px;
+	border: 2px solid black;
+	background-color: white;
+	padding: 20px;
+	/* margins are spaces outside the element */
+	margin-top: 30px;
+	margin-bottom: 30px;
+	/* auto allow us to automatically calculate the reamaining space within the container and center the element */
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+
+#moduleHeader{
+	margin-top: 30px;
+}
+
+.module-image {
+	width: 200px;
+	height: 200px;
+}
+
