@@ -18,7 +18,6 @@
 
 
 		nav {
-			position: sticky;
 			top: 0;
 			padding: 16px;
 			background-color: lightseagreen;
@@ -91,7 +90,9 @@
 
 
 		#projects h1 {
+			margin: 75px;
 			padding: 20px;
+			text-align: center;
 		}
 
 
@@ -102,6 +103,11 @@
             	padding: 20px;
            	 width: 30rem; 
             	border: 2px solid blueviolet;
+            	text-align: center;
+            	margin-left: 427px;
+            	margin-right: 427px;
+            	margin-top: 70px;
+            	margin-bottom: 70px;
         }
 
 
@@ -114,7 +120,6 @@
 
 
        	#contact {
-       		position: sticky;
             	display: flex;
             	justify-content: center; 
             	gap: 30px;               
